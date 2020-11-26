@@ -3,11 +3,13 @@ BASIC PRINT() EXAMPLES:
 PRINT: Print() is a function that is used to print a specified message in the output screen
 
 (1)
+#in order to print a string, we must use quotations, either ' or "
 print("Hello World")
 
 o/p: Hello World
 
 (2)
+#it is easy to perform mathematical calculations inside print()
 print(10 + 20)
 
 o/p: 30
