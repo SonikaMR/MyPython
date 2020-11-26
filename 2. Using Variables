@@ -1,6 +1,31 @@
-BASIC EXAMPLES OF USAGE OF VARIABLES IN PYTHON
+BASIC EXAMPLES OF USAGE OF VARIABLES IN PYTHON:
+
+VARIABLES : Variables are containers used for storing values.
 
 (1)
+#Name is the variable used here
+Name = "Sonika"
+print(Name)
+
+o/p: Sonika
+
+(2)
+Name = "Sonika"
+Name = "InsaneSo"
+print(Name)
+
+o/p: InsaneSo
+
+(3)
+Name = "Sonika"
+print(Name)
+Name = "InsaneSo"
+print(Name)
+
+o/p: Sonika
+     InsaneSo
+
+(4)
 #a and b are variables 
 #10 and 20 are the values assigned to the variables respectively
 a = 10
@@ -9,7 +34,7 @@ print(a+b)
 
 o/p: 30
 
-(2)
+(5)
 #Here, Input and Length are variables
 Name = input("What's your name: ")
 Length = len(Name)
