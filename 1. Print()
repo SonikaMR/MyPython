@@ -1,17 +1,24 @@
 BASIC PRINT() EXAMPLES:
 
+PRINT: Print() is a function that is used to print a specified message in the output screen
+
 (1)
 print("Hello World")
 
 o/p: Hello World
 
 (2)
+print(10 + 20)
+
+o/p: 30
+
+(3)
 print("Hello " + input("What's your name: "))
 
 o/p: What's your name: Sonika
      Hello Sonika
      
-(3)
+(4)
 print(len(input("What's your name")))
 
 o/p: What's your name: Sonika
