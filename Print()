@@ -1,0 +1,18 @@
+BASIC PRINT() EXAMPLES:
+
+(1)
+print("Hello World");
+
+o/p: Hello World
+
+(2)
+print("Hello " + input("What's your name: "));
+
+o/p: What's your name: Sonika
+     Hello Sonika
+     
+(3)
+print(len(input("What's your name")));
+
+o/p: What's your name: Sonika
+     6
