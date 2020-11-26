@@ -1,0 +1,30 @@
+SWAPPING OF 2 NUMBERS:
+
+(a) USING A THIRD VARIABLE:
+
+A = input("The Value of A before swapping is: ")
+B = input("The Value of A before swapping is: ")
+C = A
+A = B
+B = C
+print("The Value of A after swapping is: " + A)
+print("The Value of B after swapping is: " + B)
+
+o/p: The Value of A before swapping is: 3
+     The Value of A before swapping is: 5
+     The Value of A after swapping is: 5
+     The Value of B after swapping is: 3
+
+(b) WITHOUT USING A THIRD VARIABLE:
+
+A = input("The Value of A before swapping is: ")
+B = input("The Value of B before swapping is: ")
+#just switch the variables around in the print function at the end
+print("The Value of A after swapping is: " + B)
+print("The Value of B after swapping is: " + A)
+
+o/p: The Value of A before swapping is: 3
+     The Value of B before swapping is: 5
+     The Value of A after swapping is: 5
+     The Value of A after swapping is: 3
+
