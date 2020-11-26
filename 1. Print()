@@ -15,6 +15,7 @@ print(10 + 20)
 o/p: 30
 
 (3)
+#input() is a function that is used to get input from the user
 print("Hello " + input("What's your name: "))
 
 o/p: What's your name: Sonika
