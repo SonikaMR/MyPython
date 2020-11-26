@@ -11,8 +11,9 @@ o/p: 30
 
 (2)
 #Here, Input and Length are variables
-Input = input("What's your name: ")
-Length = len(Input)
+Name = input("What's your name: ")
+Length = len(Name)
+#len() is a built-in function where it can be used to get the length of any given string, array, list, etc,.
 print(Length)
 
 o/p: What's your name: Sonika
