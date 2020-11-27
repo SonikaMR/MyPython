@@ -36,8 +36,8 @@ num_char = len(input("What's your name: "))
 print("There are " + str(num_char) + " letters in your name!")
 
 #With variable :
-Conversion = str(num_char) 
+Conversion = str("'") + str(num_char) + str("'")
 print("There are " + Conversion + " letters in your name!")
 
 o/p: What's your name: Sonika
-     There are 6 letters in your name!
+     There are '6' letters in your name!
