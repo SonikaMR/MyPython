@@ -33,7 +33,7 @@ num_char = len(input("What's your name: "))
 #With or without a variable, either way you can convert it
 
 #Without vaiable : 
-print("There are " + str(num_char) + " letters in your name!")
+print("There are " + str("'") + str(num_char) + str("'") + " letters in your name!")
 
 #With variable :
 Conversion = str("'") + str(num_char) + str("'")
