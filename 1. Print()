@@ -3,7 +3,7 @@ BASIC PRINT() EXAMPLES:
 PRINT: Print() is a function that is used to print a specified message in the output screen
 
 (1)
-#in order to print a string, we must use quotations, either ' or "
+#in order to print a string, we must use quotations, either ' or ", within which we write the specified message
 print("Hello World")
 
 o/p: Hello World
@@ -22,7 +22,22 @@ o/p: What's your name: Sonika
      Hello Sonika
      
 (4)
-print(len(input("What's your name")))
+print(len(input("What's your name: "))
 
 o/p: What's your name: Sonika
      6
+     
+(5)
+num_char = len(input("What's your name: "))
+#you must convert the type of 'num_char' from integer to string in order to get that printed, otherwise It'll give you a TypeError
+#With or without a variable, either way you can convert it
+
+#Without vaiable : 
+print("There are " + str(num_char) + " letters in your name!")
+
+#With variable :
+Conversion = str(num_char) 
+print("There are " + Conversion + " letters in your name!")
+
+o/p: What's your name: Sonika
+     There are 6 letters in your name!
