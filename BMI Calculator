@@ -1,0 +1,15 @@
+BMI CALCULATOR
+
+BMI [Body Mass Index]: The BMI is a measure of a person's body fat using their weight and height.
+
+FORMULA FOR BMI IS:
+BMI = Weight(in Kgs) / (Height)^2 (in m^2)
+
+height = float(input("Enter your height in m: "))
+weight = float(input("Enter your weight in Kg: "))
+bmi = weight / (height ** 2)
+print(int(bmi))
+
+o/p: Enter your height in m: 1.75
+     Enter your weight in Kgs: 80
+     26
