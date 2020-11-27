@@ -29,7 +29,7 @@ o/p: What's your name: Sonika
      
 (5)
 num_char = len(input("What's your name: "))
-#you must convert the type of 'num_char' from integer to string in order to get that printed, otherwise It'll give you a TypeError
+#you must convert the type of 'num_char' from integer to string in order to get that printed [commonly known as TYPE-CASTING], otherwise It'll give you a TypeError
 #With or without a variable, either way you can convert it
 
 #Without vaiable : 
