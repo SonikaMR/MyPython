@@ -1,1 +1,50 @@
+DATA-TYPES: Data Types are the classification or categorization of data items.
 
+type(): It is a function which is used to identify the type of data given to a variable.
+
+
+BASIC DATA-TYPES IN PYTHON WITH EXAMPLES:
+
+(A) INTEGERS (int): Numbers without any decimal places (ie) whole numbers (considering both positive and negavtives numbers)
+    Eg): a = 123
+         print(type(a))
+         
+    o/p: <class 'int'>
+    
+    Eg): print(12 + 12)
+         print(12_34 + 12_12) #Underscores between numbers represent the commas that we usually use in-between (like 1,00,000)
+         print(12_3 + 1_234) #12_3 = 12,3; 1_234 = 1,234
+         
+    o/p: 24
+         2446
+         1357
+    
+(B) FLOATING POINT (float): Floating Point Numbers are numbers with decimal places (fractional)
+    Eg): b = 12.34
+         print(type(b))
+         
+    o/p: <class 'float'>
+    
+    Eg): print(10.5 + 11.2) #even if you add an integer number with a floating point number, the final result will be in float only
+         print(10.5 + 15) #It'll convert the integer number to float automatically)
+   
+    o/p: 21.7
+         25.5
+    
+(C) STRINGS (str): Strings are sequences of character data which are delimited using either " or '
+    Eg): c = "Hello"
+         print(type(c))
+         
+    o/p: <class 'str'>
+    
+(D) BOOLEAN (bool): Boolean are interpreted to represent whether something given is true or false
+                    It has only two values -> True and False
+                    (both must start with capital letters only and no need to be delimited with quotations)
+                    
+    Eg): d = True
+         e = False
+         print(type(d))
+         print(type(e))
+         
+    o/p: <class 'bool'>
+         <class 'bool'>
