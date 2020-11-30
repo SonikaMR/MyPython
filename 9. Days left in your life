@@ -1,0 +1,13 @@
+DAYS, WEEKS, MONTHS LEFT IN YOUR LIFE (Not taking leap year into account)
+
+
+#let us assume that you are going to live until age 60 and calculate how many days, weeks and months are left for you to live your life.
+Age = input("What's your current age? ")
+Years = 60 - int(Age)
+Days = round(Years * 365)
+Weeks = round(Years * 52)
+Months = round(Years * 12)
+print(f"You have {Days} days, {Weeks} weeks, and {Months} months left.")
+
+o/p: What's your current age? 21
+     You have 14235 days, 2028 weeks, and 468 months left.
