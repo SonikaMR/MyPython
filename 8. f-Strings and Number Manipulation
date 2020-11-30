@@ -1,0 +1,49 @@
+F-STRINGS and NUMBER MANIPULATION
+
+f-Strings: f-Strings are used to convert any given type of the variable to strings.
+
+Eg)
+name = "Sonika"
+age = 21
+height = 1.61
+myDetails = True
+print("My name is " + name + ", my age is " + str(age) + ", my height is " + str(height) + " and all the details I've given is " + str(myDetails));
+
+#Since converting each and every type to string is really painful and where f-Strings comes in really handy 
+#In order to convert each and every type of the variable to string by using str(), we can simply use f-Strings by adding 'f' before the double quotes
+#Also, we must use { and } to insert variables and no need of using any '+' signs
+
+print(f"My name is {name}, my age is {age}, my height is {height} and all the details I've given is {myDetails}")
+
+o/p: My name is Sonika, my age is 21, my height is 1.61 and all the details I've given is True
+
+
+NUMBER MANIPULATION:
+
+#Usually dividing 2 numbers returns a float value with recurring decimal digits like,
+print(8/3)
+
+o/p: 2.6666666666
+
+#Using int() will convert the result to an integer number
+print(int(8/3))
+
+o/p: 2
+
+#But still it won't be an accurate answer and hence round() comes in handy. It rounds off the result to a precise value
+print(round(8/3))
+
+o/p: 3
+
+#Also, we can decide how many decimal digits must be displayed by using round(number, digit) 
+print(round(8/3 , 2)
+
+o/p: 2.67
+
+#We can also use Floor Division, where it produces the final result in integer value
+print(8//3)
+print(type(8//3)
+
+o/p: 2
+     <class 'int'>
+
