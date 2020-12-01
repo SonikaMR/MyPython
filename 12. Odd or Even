@@ -10,8 +10,8 @@ if (number % 2) == 0:
 else:
   print("This is an odd number.")
   
-o/p: Which number do you want to check? 18
+o/p: Which number do you want to check? 11
      This is an even number.
 
-     Which number do you want to check? 11
+     Which number do you want to check? 18
      This is an odd number.
