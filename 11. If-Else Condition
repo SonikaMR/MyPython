@@ -1,0 +1,28 @@
+IF-ELSE CONDITION
+
+SYNTAX:
+      if (condition):           
+        block of statement(s)   
+      else:                     
+        block of statement(s)
+        
+#colon at the end of the if/else statement is must
+#indentation at the block of statements is must
+#indentation here means that this particular block of code must run if the 'if' condition is true
+
+Eg):
+#if you are a ticket seller for roller coaster in a theme park and you must allow kids taller than 150cm
+#if they are not satisfying this condition, then they aren't allowed to ride
+
+print("Welcome to the Theme Park!\nHave a happy day!!")
+height = int(input("What's your height? "))
+if height >= 150:
+  print("You are allowed to ride the Roller Coaster!\nEnjoy!")
+else:
+  print("Sorry Kid, you aren't allowed to ride the Roller Coaster.\nBetter Luck next time!")
+  
+o/p: Welcome to the Theme Park!
+     Have a happy day!!
+     What's your height? 180
+     You are allowed to ride the Roller Coaster!
+     Enjoy!
