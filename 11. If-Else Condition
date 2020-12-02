@@ -26,3 +26,51 @@ o/p: Welcome to the Theme Park!
      What's your height? 180
      You are allowed to ride the Roller Coaster!
      Enjoy!
+
+#suppose if there is a condition in price of the tickets such that the ticket price of a person under age 12 will be Rs.10
+#The ticket price of a person aged between 12 to 18 is Rs.20 and for the person aged above 18 is Rs.30
+#Now here, to satisfy this condition, we are now to use the NESTED IF-ELSE STATEMENTS
+
+NESTED IF-ELSE CONDITION:
+
+SYNTAX:
+      if (condition):
+          block of statements
+        
+          if (condition):
+            block of statements
+          elif (condition):
+            block of statements
+          else:
+            block of statements
+      
+      else:
+        block of statements
+        
+ELIF: If there are more than 1 condition, then elif is used.
+
+Eg):
+
+print("Welcome to the Theme Park!\nHave a happy day!!")
+height = int(input("What's your height? "))
+if height >= 150:
+  print("You are allowed to ride the Roller Coaster!\nEnjoy!")
+  age = int(input("What's your age? "))
+  if age < 12:
+    print("Please pay Rs.10!")
+  elif 12 <= age <= 18:
+    print("Please pay Rs.20!")
+  else:
+    print("Please pay Rs.30!")
+else:
+  print("Sorry Kid, you aren't allowed to ride the Roller Coaster.\nBetter Luck next time!")
+  
+o/p: Welcome to the Theme Park!
+     Have a happy day!!
+     What's your height? 162
+     You are allowed to ride the Roller Coaster!
+     Enjoy!
+     What's your age? 21
+     Please pay Rs.30!
+
+        
