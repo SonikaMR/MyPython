@@ -1,0 +1,25 @@
+BMI CALCULATOR 2.0 (using if-else statements)
+
+#in the previous BMI calculator, there will only be the calculation of BMI of a person using their height and weight
+#but here, we are going to calculate whether that person is under weight or normal or is suffering from obese
+#for that, we are going to categorize their BMI value using if-else statements
+
+height = float(input("Enter your height in m: "))
+weight = float(input("Enter your weight in kg: "))
+bmi = weight / height ** 2
+print(f"Your BMI is {round(bmi,2)}")
+if bmi < 18.5:
+  print("You are under-weight")
+elif 18.5 <= bmi <= 25:
+  print("You are normal-weight")
+elif 25 <= bmi <= 30:
+  print("You are slightly over-weight")
+elif 30 <= bmi <= 35:
+  print("You are obese")  
+else:
+  print("You are clinically obese")
+
+o/p: Enter your height in m: 1.62
+     Enter your weight in kg: 60
+     Your BMI is 22.86
+     You are normal-weight
