@@ -10,11 +10,11 @@ bmi = weight / height ** 2
 print(f"Your BMI is {round(bmi,2)}")
 if bmi < 18.5:
   print("You are under-weight")
-elif 18.5 <= bmi <= 25:
+elif bmi <= 25:                 #since the values below 18.5 are already tested as false, there is no need to write it as (18.5 <= bmi <= 25)
   print("You are normal-weight")
-elif 25 <= bmi <= 30:
+elif bmi <= 30:
   print("You are slightly over-weight")
-elif 30 <= bmi <= 35:
+elif bmi <= 35:
   print("You are obese")  
 else:
   print("You are clinically obese")
