@@ -27,11 +27,16 @@ o/p: Welcome to the Theme Park!
      You are allowed to ride the Roller Coaster!
      Enjoy!
 
+
+
 #suppose if there is a condition in price of the tickets such that the ticket price of a person under age 12 will be Rs.10
 #The ticket price of a person aged between 12 to 18 is Rs.20 and for the person aged above 18 is Rs.30
 #Now here, to satisfy this condition, we are now to use the NESTED IF-ELSE STATEMENTS
 
 NESTED IF-ELSE CONDITION:
+
+SYNTAX:
+      
 
 SYNTAX:
       if (condition):
@@ -73,4 +78,52 @@ o/p: Welcome to the Theme Park!
      What's your age? 21
      Please pay Rs.30!
 
+
+#A very common thing in riding a roller coaster is that, we all tend to take pictures as like riding in it.
+#But for that we must pay some money 
+#Therefore, in order to sum up the bill along with that money, we will be needing another IF condition
+#but in cases like this, we won't be needing an ELSE statement, and hence there comes multiple IF statements in handy.
+
+MULTIPLE IF STATEMENTS:
+
+SYNTAX:
+      if (condition 1):
+            do A
+      if (condition 2):
+            do B
+      if (condition 3):
+            do C
+            
+#no need of ELSE in this type
+#if the conditions are found to be true, then their block of statements will be performed
+#if all the conditions are true, then everything will be performed
+#we can use as many as IF statements we need, as per the problem we are working into 
+
+Eg):
+#now we're going to add the Picture column right after the age condition is done
+#since every customer will not be willing to picture them while they are riding, we must ask them
+#if they are willing, then we must sum up the price of taking a picture along with the original final bill
+#and for that, we must create a variable Bill
+
+print("Welcome to the Theme Park!\nHave a happy day!!")
+height = int(input("What's your height? "))
+bill = 0
+if height >= 150:
+  print("You are allowed to ride the Roller Coaster!\nEnjoy!")
+  age = int(input("What's your age? "))
+  if age < 12:
+    bill = 10
+    print("Please pay Rs.10!")
+  elif age <= 18:
+    bill = 20
+    print("Please pay Rs.20!")
+  else:
+    bill = 30
+    print("Please pay Rs.30!")
+  picture = input("Are you willing to take a picture while riding? Y or N: ")
+  if picture == 'Y':
+    bill += 15
+    print(f"Your final bill is {bill}") 
+else:
+  print("Sorry Kid, you aren't allowed to ride the Roller Coaster.\nBetter Luck next time!")
         
