@@ -120,10 +120,19 @@ if height >= 150:
   else:
     bill = 30
     print("Please pay Rs.30!")
-  picture = input("Are you willing to take a picture while riding? Y or N: ")
+  picture = input("Do you want a photo taken ? Y or N: ")
   if picture == 'Y':
     bill += 15
-    print(f"Your final bill is {bill}") 
+    print(f"Your final bill is Rs.{bill}") 
 else:
   print("Sorry Kid, you aren't allowed to ride the Roller Coaster.\nBetter Luck next time!")
         
+o/p: Welcome to the Theme Park!
+     Have a happy day!!
+     What's your height? 162
+     You are allowed to ride the Roller Coaster!
+     Enjoy!
+     What's your age? 21
+     Please pay Rs.30!
+     Do you want a photo taken ? Y or N: Y
+     Your final bill is Rs.45
