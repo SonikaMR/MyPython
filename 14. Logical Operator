@@ -1,0 +1,36 @@
+LOGICAL OPERATORS
+
+Logical Operators: Its is used for checking multiple conditions in the same line of code
+
+#there are 3 types of logical operators:
+
+1. AND: If both the conditions are found to be true, then the whole IF condition is satisfied(said to be true) 
+        If we combine 2 different conditions (say A and B) using 'and' operator, they both must be true
+        If at all, either one is false (or both of them are false), then the whole If statement is evaluated to be false
+        Eg):
+             a = 12
+             if a > 10 and a < 13: #here, both the conditions are true and hence IF statement is performed
+               print("Perfect!")
+             
+             o/p: Perfect!
+        
+2. OR: In Or Operator, it's not compulsory that both must be true for the entire line of code to be true
+       So If C or D is true or if they are both true, then it will be evaluated to be true
+       If only when both C and D are false, the final result actually becomes false
+       Eg):
+            a = 12
+            if a > 15 or a < 13: #here, even though, only the 2nd condition is true, the IF statement is still executed
+              print("Perfect!")
+            
+            o/p: Perfect!
+       
+3. NOT: It's job is to reverse the condition (ie), if a condition is said to be false, it reverses it to true
+        If the condition is said to be true, then it becomes false by using NOT operator
+        Eg):
+             a = 12
+             if not a == 12:         #Since a = 12 is true, but NOT operator is used and hence IF statement becomes false
+                 print("Perfect!")
+             else:
+                 print("It's okay!")
+             
+             o/p: It's okay!
