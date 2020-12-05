@@ -34,3 +34,4 @@ Logical Operators: Its is used for checking multiple conditions in the same line
                  print("It's okay!")
              
              o/p: It's okay!
+             
