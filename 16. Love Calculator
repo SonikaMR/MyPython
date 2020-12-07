@@ -1,0 +1,46 @@
+LOVE CALCULATOR (using if-else)
+
+#in this program, we are going to test the compatibility between 2 people
+#To work out the love score between two people:
+
+1. Take both people's names and check for the number of times the letters in the word TRUE occurs
+2. Then check for the number of times the letters in the word LOVE occurs
+3. Then combine these numbers to make a 2 digit number.
+
+#for this, we are going to use 2 functions:
+1. lower(): The lower() function changes all the letters in a string to lower case.
+2. count(): The count() function will give you the number of times a letter occurs in a string.
+
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is your lover's name? \n")
+name = name1.lower() + name2.lower() 
+T = name.count('t') 
+R = name.count('r')
+U = name.count('u') 
+E = name.count('e') 
+L = name.count('l') 
+O = name.count("o") 
+V = name.count('v') 
+add1 = T + R + U + E
+add2 = L + O + V + E
+add = int(str(add1)+str(add2))
+if add < 20:
+  print(f"Your score is {add}, you go together like coke and mentos.")
+elif add < 40:
+  print(f"Your score is {add}, obstacles are ready to test your love")
+elif add < 60:
+  print(f"Your score is {add}, You look great together")
+elif add < 80:
+  print(f"Your score is {add}, Love is in the air")
+elif add < 100:
+  print(f"Your score is {add}, Romance dwells between you")
+else:
+  print(f"Your score is {add}")
+  
+o/p: Welcome to the Love Calculator!
+     What is your name? 
+     Brad Pitt
+     What is your lover's name? 
+     Jennifer Aniston
+     Your score is 73, Love is in the air
