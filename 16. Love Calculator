@@ -38,7 +38,39 @@ Love Score = 53
 
 Print: "Your score is 53."
 
-print("Welcome to the Love Calculator!")
+print('''
+                        __,,,__
+                ,-""-,-"       "-,-""-,
+               /,-' , .-'-.7.-'-. , '-,\
+               \(    /  _     _  \    )/
+                '-,  { (0)   (0) }  ,-'
+                 /    >  .---.  <    \
+                |/ .-'   \___/   '-. \|
+                {, /  ,_       _,  \ ,}
+                \ {,    \     /    ,} /
+                 ',\.    '---'    ./,'
+             _.-""""""-._     _.-""""""-._
+           .'            `._.`            '.
+         _/_               _                \
+      .'`   `\            | |                \
+     /        |           | |                 ;
+     |        /           |_|                 |
+     \  ;'---'    _    ___  _  _  ___         ;
+      '. ;       | |  /   \| || ||  _|     _ ;
+        `-\      | |_ | | || |/ /|  _|   .' `,
+           `\    |___|\___/ \__/ |___|  |     \
+             \            _ _           \     |
+              `\         | | |         /`   _/
+    ,-""-.    .'`\       | | |       /`-,-'` .-""-,
+   /      `\.'    `\     \___/     /`    './`      \
+  ;  .--.   \       '\           /'       /   .--.  ;
+  | (    \   |,       '\       /'        |   /    ) |
+   \ ;    }             ;\   /;         `   {    ; /
+    `;\   \         _.-'  \ /  `-._         /   /;`
+      \ \__.'   _.-'       Y       `-._    '.__//
+       '.___,.-'                       `-.,___.'
+''')
+print("Welcome to InsaneSo's Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is your lover's name? \n")
 name = name1.lower() + name2.lower() 
@@ -53,21 +85,52 @@ add1 = T + R + U + E
 add2 = L + O + V + E
 score = int(str(add1)+str(add2))
 if score < 20:
-  print(f"Your score is {score}, You go together like coke and mentos!")
+  print(f"Your score is {score}, you go together like coke and mentos.")
 elif score < 40:
-  print(f"Your score is {score}, Obstacles are ready to test your love!")
+  print(f"Your score is {score}, obstacles are ready to test your love")
 elif score < 60:
-  print(f"Your score is {score}, You look great together!")
+  print(f"Your score is {score}, You look great together")
 elif score < 80:
-  print(f"Your score is {score}, Love is in the air!")
+  print(f"Your score is {score}, Love is in the air")
 elif score < 100:
-  print(f"Your score is {score}, Romance dwells between you!")
+  print(f"Your score is {score}, Romance dwells between you")
 else:
   print(f"Your score is {score}")
-  
-o/p: Welcome to the Love Calculator!
-     What is your name? 
-     Brad Pitt
-     What is your lover's name? 
-     Jennifer Aniston
-     Your score is 73, Love is in the air
+
+o/p: 
+                        __,,,__
+                ,-""-,-"       "-,-""-,
+               /,-' , .-'-.7.-'-. , '-,\
+               \(    /  _     _  \    )/
+                '-,  { (0)   (0) }  ,-'
+                 /    >  .---.  <    \
+                |/ .-'   \___/   '-. \|
+                {, /  ,_       _,  \ ,}
+                \ {,    \     /    ,} /
+                 ',\.    '---'    ./,'
+             _.-""""""-._     _.-""""""-._
+           .'            `._.`            '.
+         _/_               _                \
+      .'`   `\            | |                \
+     /        |           | |                 ;
+     |        /           |_|                 |
+     \  ;'---'    _    ___  _  _  ___         ;
+      '. ;       | |  /   \| || ||  _|     _ ;
+        `-\      | |_ | | || |/ /|  _|   .' `,
+           `\    |___|\___/ \__/ |___|  |     \
+             \            _ _           \     |
+              `\         | | |         /`   _/
+    ,-""-.    .'`\       | | |       /`-,-'` .-""-,
+   /      `\.'    `\     \___/     /`    './`      \
+  ;  .--.   \       '\           /'       /   .--.  ;
+  | (    \   |,       '\       /'        |   /    ) |
+   \ ;    }             ;\   /;         `   {    ; /
+    `;\   \         _.-'  \ /  `-._         /   /;`
+      \ \__.'   _.-'       Y       `-._    '.__//
+       '.___,.-'                       `-.,___.'
+Welcome to InsaneSo's Love Calculator!
+What is your name? 
+Brad Pitt
+What is your lover's name? 
+Jennifer Aniston
+Your score is 73, Love is in the air
