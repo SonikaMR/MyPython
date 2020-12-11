@@ -37,6 +37,8 @@ if road == "left":
       print("Oh No.. Wrong Door!\nYou entered a room of BEASTS!\nGAME OVER!")
     elif color == "red":
       print("Oh No..Wrong Door!\nYou entered a room of GHOSTS!\nGAME OVER!")
+    else:
+      print("You've chosen a door that doesn't exist!\nGAME OVER!")       
   else:
     print("Oh No.. the lake is full of CROCODILES!!\nGAME OVER!")
 else:
