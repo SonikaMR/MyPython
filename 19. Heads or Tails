@@ -1,0 +1,15 @@
+HEADS OR TAILS:
+
+#Now let's create a coin toss program that will randomly tell the user "Heads" or "Tails" using Random module
+#For that, we must generate a number (either 0 or 1) first
+#If it is 1 then we must print "Heads" or otherwise, it's "Tails
+
+import random
+coin_toss = random.randint(1,2)
+if coin_toss == 1:
+  print("Heads")
+else:
+  print("Tails")
+  
+o/p: Tails
+    
