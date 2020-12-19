@@ -1,0 +1,38 @@
+RANDOMIZATION IN PYTHON:
+
+#In order to generate numbers and characters randomly, we use Randomisation.
+#The Python standard library provides a module called RANDOM that offers a variety of functions for generating random numbers.
+#These functions are entirely dependent on Pseudo-Random Number Generation method.
+#Python uses a popular and robust pseudo-random number generator called the Mersenne Twister.
+
+
+PSEUDO-RANDOM NUMBER GENERATORS:
+
+#The source of randomness that we inject into our programs and algorithms is a mathematical trick called a pseudorandom number generator.
+#Pseudorandomness is a sample of numbers that look close to random, but were generated using a deterministic process.
+#For better understanding of this concept, do visit 
+  https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
+#This video articulates the concept behind the pseudo-random number generator in a brilliant way.
+
+
+RANDOM MODULE:
+#Random module in Python is used to generate pseudo-random numbers for various probabilistic distributions.
+#To bring in the Random module in a python program, we must use IMPORT keyword.
+#Some main functions: 
+
+1)RANDINT(a,b): randint(a,b) is used to produce a random integer, encompassing a and b and also a must always be lesser than b.
+  Eg)  import random
+       random_int = random.randint(1,100)
+       print(random_int)
+   
+  o/p: 45
+
+2)RANDOM(): generates a random number between [0.0 to 1.0) (where 1 is not inclusive)
+   Eg)  import random
+        random_int = random.random()
+        print(random_float)
+   
+   o/p: 0.8085510649968928
+   
+#The below mentioned link provides a suite of functions that are present in this module along with sample programs and outputs
+  https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
