@@ -1,7 +1,7 @@
 TO ADD THE DIGITS IN A 2 DIGIT NUMBER
 
 two_digit_num = input("Enter a 2 digit number: ")
-#Get the first and second digits using subscripting, then convert it from string to int.
+#Get the first and second digits using subscripting( The subscript operator is defined as square brackets [] ) , then convert it from string to int.
 first_num = int(two_digit_num[0])
 second_num = int(two_digit_num[1])
 #Add the two digits
